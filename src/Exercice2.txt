@@ -1,0 +1,75 @@
+Exercice expression TP1 pharo
+
+Exercice : Objets Littéraux
+
+1) Cela fait reference à une chaine
+2) Cela fait reference à un réel
+3) Cela fait reference à un symbole
+4) Cela fait reference à un tableau de litteraux
+5) Cela fait reference à une fonction anonyme ou bloc
+6) Cela fait reference à une caractere
+7) Cela fait reference à un boolean 
+8) Cela fait reference à une nombre (Integer)
+
+Exercice : Messages
+
+1) 
+
+Receveur:1
+Selecteur:+
+Arguments:2
+Resultat retourné:3
+
+2)
+Receveur:Date
+Selecteur:today
+Arguments:aucun
+Resultat retourné: 15 january 2021
+
+3)
+Receveur:anArray
+Selecteur:
+Arguments:1,'hello'
+Resultat retourné: erreur
+
+4)
+Receveur:anArray
+Selecteur:
+Arguments: i
+Resultat retourné:erreur
+
+5)
+Receveur:#(2 33 4 67)
+Selecteur: collect
+Arguments: [ :each | each abs ]
+Resultat retourné:#(2 33 4 67)
+
+6)
+Receveur:25
+Selecteur:@
+Arguments: 50
+Resultat retourné:(25@50)
+
+7)
+Receveur:SmallInteger maxVal
+Selecteur:maxVal
+Arguments: 
+Resultat retourné:1073741823
+
+8)
+Receveur:#(a b c d e f)
+Selecteur:
+Arguments: #(f d b)
+Resultat retourné:true
+
+9)
+Receveur:true
+Selecteur:|
+Arguments: false
+Resultat retourné:true
+
+10)
+Receveur:Point
+Selecteur:selectors
+Arguments: 
+Resultat retourné: affiche une multitude de keyword message avec des #
