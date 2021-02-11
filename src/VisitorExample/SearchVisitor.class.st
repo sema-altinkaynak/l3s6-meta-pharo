@@ -1,7 +1,7 @@
 Class {
 	#name : #SearchVisitor,
 	#superclass : #RBProgramNodeVisitor,
-	#classVars : [
+	#instVars : [
 		'token'
 	],
 	#category : #VisitorExample

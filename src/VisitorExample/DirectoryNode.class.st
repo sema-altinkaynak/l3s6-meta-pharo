@@ -1,7 +1,7 @@
 Class {
 	#name : #DirectoryNode,
 	#superclass : #Object,
-	#classVars : [
+	#instVars : [
 		'children'
 	],
 	#category : #VisitorExample

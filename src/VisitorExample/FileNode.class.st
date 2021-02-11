@@ -1,7 +1,7 @@
 Class {
 	#name : #FileNode,
 	#superclass : #Object,
-	#classVars : [
+	#instVars : [
 		'size'
 	],
 	#category : #VisitorExample
